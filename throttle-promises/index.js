@@ -1,8 +1,5 @@
 'use strict';
 
-require('babel/register');
-
-
 module.exports = function (limit, promiseFactories) {
   return new Promise(function (resolve) {
     var running = 0;
